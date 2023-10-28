@@ -39,4 +39,7 @@ public class ValidateCustomer {
 		checkDuplicateEmail(email, customer);
 		return new Customer(firstName, lastName, email, password, regAmount, date, validatedPlan);
 	}
+	
+	
+	
 }
